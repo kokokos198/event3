@@ -69,7 +69,6 @@ public class Main {
                if (!visited.containsKey(nextValue)) {
                     dfs(nextValue, multiplier * factor, target);
                 }
-
             }
         }
 }
